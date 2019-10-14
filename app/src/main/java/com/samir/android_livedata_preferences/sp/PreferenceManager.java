@@ -21,7 +21,6 @@ public class PreferenceManager {
         new SPBooleanLiveData(key, value);
     }
 
-
     public static void setSharedPreferences(String key, String value) {
 
         SharedPreferences.Editor editor = getSharedPreferences().edit();
